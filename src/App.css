@@ -1,0 +1,13 @@
+:root {
+  --puprle-clr: #6C63FF;
+}
+
+h1 {
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 750px;
+  margin: 0 auto 0 auto;
+}

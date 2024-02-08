@@ -60,11 +60,13 @@ export default function DropDownList() {
               setIsActive(!isActive);
             }}
             className="item"
+            id="all"
           >
             All
           </div>
           <div
             className="item"
+            id="complete"
             onClick={(e) => {
               setIsSelected(e.target.textContent);
               setIsActive(!isActive);
@@ -74,6 +76,7 @@ export default function DropDownList() {
           </div>
           <div
             className="item"
+            id="incomplete"
             onClick={(e) => {
               setIsSelected(e.target.textContent);
               setIsActive(!isActive);

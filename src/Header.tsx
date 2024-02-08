@@ -1,6 +1,7 @@
 import DropDownList from "./DropDownList";
 import Search from "./Search";
 import './Header.css'
+import ThemeSwitchBtn from "./ThemeSwitchBtn";
 
 const Header = () => {
 
@@ -8,7 +9,7 @@ const Header = () => {
         <div className="Header">
             <Search />
             <DropDownList />
-            <button id="theme-switch"></button>
+            <ThemeSwitchBtn />
         </div>
     )
 }

@@ -1,0 +1,10 @@
+#add-task-btn {
+    position: absolute;
+    bottom: 32px;
+    margin-left: 692px;
+}
+
+#add-task-btn:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+}

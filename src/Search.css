@@ -3,7 +3,7 @@
     border: 0;
     width: 21px;
     height: 21px;
-    background-color: #fff;
+    background-color: var(--backColor);
     margin: 8.5px;
 }
 
@@ -12,7 +12,7 @@
     height: 38px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid var(--puprle-clr);
+    border: 1px solid var(--basicColor);
     border-radius: 5px;
 }
 
@@ -21,4 +21,6 @@
     outline: 0;
     width: 600px;
     margin: 11px 0 11px 16px;
+    background-color: var(--backColor);
+    color: var(--contrastColor);
 }

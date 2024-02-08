@@ -1,10 +1,23 @@
 :root {
-  --puprle-clr: #6C63FF;
+  --basicColor: #6C63FF;
+  --backColor: #F7F7F7;
+  --contrastColor: #252525;
+}
+
+.night-theme {
+  --basicColor: #6C63FF;
+  --backColor: #252525;
+  --contrastColor: #F7F7F7;
+}
+
+body{ 
+  background-color: var(--backColor);
 }
 
 h1 {
   font-family: 'Kanit', sans-serif;
   text-align: center;
+  color: var(--contrastColor);
 }
 
 .container {
